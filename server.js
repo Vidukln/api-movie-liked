@@ -32,7 +32,7 @@ app.use("/api/movies", movieLikesRoutes);
 
 const __dirname = path.resolve();
 app.get("/", (req, res) => {
-  res.send("Movie Likes Services API is running....");
+  res.send("Movie Likes Services API is working on Port 5002....");
 });
 
 // error ~Middleware
